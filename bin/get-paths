@@ -1,0 +1,4 @@
+#!/bin/sh
+
+home_dir=$(echo $HOME | sed "s/\//\\\\\//g")
+cat ~/.dotmods/path | ~/.dotmods/bin/de-comment | sed "s/~/$home_dir/"

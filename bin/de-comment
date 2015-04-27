@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Removes comments from config files
+#
+# ex. `cat ~/.dotmods/path | de-comment` will print
+# ~/.dotmods/path with comments stripped
+
+while read LINE; do
+  echo $LINE | sed -e 's/ *#.*$//' -e '/^$/d'
+done

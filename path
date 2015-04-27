@@ -1,0 +1,32 @@
+# This file defines paths that all shells
+# set the environment variable PATH to.
+#
+# Use the shell script ~/.dotmods/bin/get-paths to get a
+# new line separated list of these paths without comments
+
+# DotMods bin:
+~/.dotmods/bin
+
+# Ruby:
+~/.rbenv/shims
+
+# Node.JS:
+./node_modules/.bin
+~/.dotmods/node/node_modules/.bin
+
+# Haskell
+~/.cabal/bin
+
+# Local Bin
+~/bin
+
+# System binaries:
+~/.linuxbrew/bin
+/usr/local/sbin
+/usr/local/bin
+/usr/sbin
+/usr/bin
+/sbin
+/bin
+/usr/local/games
+/usr/games

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+SEP=$1 # Separator between the alias and definition
+
+# Example:
+# Input in ~/.dotmods/aliases:
+# foo = bar
+# Output from `get-aliases "->"`:
+# foo->'bar'
+
+
+cat ~/.dotmods/aliases | ~/.dotmods/bin/de-comment | perl -pe "s/^([a-z.]+) *= *(.+)$/\1$SEP'\2'/"

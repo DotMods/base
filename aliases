@@ -1,0 +1,18 @@
+# This file defines aliases shared amongst all shells
+#
+# Use the shell script ~/.dotmods/bin/get-aliases to get a
+# formatted list of aliases without comments
+
+# cd shortcuts
+..    = cd ..
+...   = cd ../..
+
+# git shortcuts
+gp    = git pull
+gpp   = git pullpush
+gs    = git st
+
+# etc
+ql    = quicklook
+rs    = rails start
+t     = tmux
