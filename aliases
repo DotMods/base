@@ -16,3 +16,4 @@ gs    = git st
 ql    = quicklook
 rs    = rails start
 t     = tmux
+emc   = emacsclient -t
