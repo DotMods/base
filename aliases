@@ -17,3 +17,4 @@ ql    = quicklook
 rs    = rails start
 t     = tmux
 emc   = emacsclient -t
+emk   = emacsclient -c
