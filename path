@@ -11,11 +11,16 @@
 ~/.rbenv/shims
 
 # Node.JS:
+~/npm/bin
+~/n_home/bin
 ./node_modules/.bin
 ~/.dotmods/node/node_modules/.bin
 
 # Haskell
 ~/.cabal/bin
+
+# Cask
+~/.cask/bin
 
 # Local Bin
 ~/bin
